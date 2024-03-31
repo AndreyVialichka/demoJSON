@@ -1,14 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "catalog": [
+    { "id": 1, "label": "Категория", "slug": "category", "childeren" : [
+      {"id": 1, "label": "ПодКатегория", "slug": "subcategory"},
+      {"id": 2, "label": "ПодКатегория", "slug": "subcategory"},
+      {"id": 3, "label": "ПодКатегория", "slug": "subcategory"}
+    ] },
+    { "id": 2, "label": "Категория", "slug": "category", "childeren" : [
+      {"id": 1, "label": "ПодКатегория", "slug": "subcategory"},
+      {"id": 2, "label": "ПодКатегория", "slug": "subcategory"},
+      {"id": 3, "label": "ПодКатегория", "slug": "subcategory"}
+    ] },
+    { "id": 3, "label": "Категория", "slug": "category", "childeren" : [
+      {"id": 1, "label": "ПодКатегория", "slug": "subcategory"},
+      {"id": 2, "label": "ПодКатегория", "slug": "subcategory"},
+      {"id": 3, "label": "ПодКатегория", "slug": "subcategory"}
+    ] },
+    { "id": 4, "label": "Категория", "slug": "category", "childeren" : [
+      {"id": 1, "label": "ПодКатегория", "slug": "subcategory"},
+      {"id": 2, "label": "ПодКатегория", "slug": "subcategory"},
+      {"id": 3, "label": "ПодКатегория", "slug": "subcategory"}
+    ] },
+    { "id": 5, "label": "Категория", "slug": "category", "childeren" : [
+      {"id": 1, "label": "ПодКатегория", "slug": "subcategory"},
+      {"id": 2, "label": "ПодКатегория", "slug": "subcategory"},
+      {"id": 3, "label": "ПодКатегория", "slug": "subcategory"}
+    ] }
+  ]
 }
