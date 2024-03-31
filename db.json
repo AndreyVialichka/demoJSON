@@ -1,29 +1,212 @@
 {
   "catalog": [
-    { "id": 1, "label": "Категория", "slug": "category", "childeren" : [
-      {"id": 1, "label": "ПодКатегория", "slug": "subcategory"},
-      {"id": 2, "label": "ПодКатегория", "slug": "subcategory"},
-      {"id": 3, "label": "ПодКатегория", "slug": "subcategory"}
-    ] },
-    { "id": 2, "label": "Категория", "slug": "category", "childeren" : [
-      {"id": 1, "label": "ПодКатегория", "slug": "subcategory"},
-      {"id": 2, "label": "ПодКатегория", "slug": "subcategory"},
-      {"id": 3, "label": "ПодКатегория", "slug": "subcategory"}
-    ] },
-    { "id": 3, "label": "Категория", "slug": "category", "childeren" : [
-      {"id": 1, "label": "ПодКатегория", "slug": "subcategory"},
-      {"id": 2, "label": "ПодКатегория", "slug": "subcategory"},
-      {"id": 3, "label": "ПодКатегория", "slug": "subcategory"}
-    ] },
-    { "id": 4, "label": "Категория", "slug": "category", "childeren" : [
-      {"id": 1, "label": "ПодКатегория", "slug": "subcategory"},
-      {"id": 2, "label": "ПодКатегория", "slug": "subcategory"},
-      {"id": 3, "label": "ПодКатегория", "slug": "subcategory"}
-    ] },
-    { "id": 5, "label": "Категория", "slug": "category", "childeren" : [
-      {"id": 1, "label": "ПодКатегория", "slug": "subcategory"},
-      {"id": 2, "label": "ПодКатегория", "slug": "subcategory"},
-      {"id": 3, "label": "ПодКатегория", "slug": "subcategory"}
-    ] }
+    {
+      "key": "0",
+      "label": "Компьютерная техника",
+      "data": "https://vuejs.org/guide/introduction.html#what-is-vue",
+      "type": "url",
+      "children": [
+        {
+          "key": "0-0",
+          "label": "Видеокарты",
+          "data": "https://vuejs.org/guide/introduction.html#what-is-vue",
+          "type": "url",
+          "children": [
+            {
+              "key": "0-0",
+              "label": "Видеокарты",
+              "data": "https://vuejs.org/guide/introduction.html#what-is-vue",
+              "type": "url"
+            },
+            {
+              "key": "0-1",
+              "label": "Твердотельные накопители (SSD)",
+              "data": "https://vuejs.org/guide/quick-start.html#quick-start",
+              "type": "url"
+            },
+            {
+              "key": "0-2",
+              "label": "Планшеты",
+              "data": "https://vuejs.org/guide/essentials/application.html#creating-a-vue-application",
+              "type": "url"
+            },
+            {
+              "key": "0-3",
+              "label": "Игровые приставки",
+              "data": "https://vuejs.org/guide/essentials/conditional.html#conditional-rendering",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "key": "0-1",
+          "label": "Твердотельные накопители (SSD)",
+          "data": "https://vuejs.org/guide/quick-start.html#quick-start",
+          "type": "url"
+        },
+        {
+          "key": "0-2",
+          "label": "Планшеты",
+          "data": "https://vuejs.org/guide/essentials/application.html#creating-a-vue-application",
+          "type": "url"
+        },
+        {
+          "key": "0-3",
+          "label": "Игровые приставки",
+          "data": "https://vuejs.org/guide/essentials/conditional.html#conditional-rendering",
+          "type": "url"
+        }
+      ]
+    },
+    {
+      "key": "1",
+      "label": "Бытовая техника",
+      "children": [
+        {
+          "key": "1-0",
+          "label": "Стиральные машины",
+          "data": "https://vuejs.org/guide/components/registration.html#component-registration",
+          "type": "url"
+        },
+        {
+          "key": "1-1",
+          "label": "Пылесосы",
+          "data": "https://vuejs.org/guide/components/props.html#props",
+          "type": "url"
+        },
+        {
+          "key": "1-2",
+          "label": "Очистители и увлажнители воздуха",
+          "data": "https://vuejs.org/guide/components/events.html#component-events",
+          "type": "url"
+        },
+        {
+          "key": "1-3",
+          "label": "Зубные щетки",
+          "data": "https://vuejs.org/guide/components/slots.html#slots",
+          "type": "url"
+        }
+      ]
+    },
+    {
+      "key": "2",
+      "label": "Видео, аудио, фото, оптика",
+      "children": [
+        {
+          "key": "0-0",
+          "label": "Наушники и гарнитуры",
+          "data": "https://vuejs.org/guide/introduction.html#what-is-vue",
+          "type": "url"
+        },
+        {
+          "key": "0-1",
+          "label": "Портативная акустика",
+          "data": "https://vuejs.org/guide/quick-start.html#quick-start",
+          "type": "url"
+        },
+        {
+          "key": "0-2",
+          "label": "Экшн-камеры",
+          "data": "https://vuejs.org/guide/essentials/application.html#creating-a-vue-application",
+          "type": "url"
+        },
+        {
+          "key": "0-3",
+          "label": "Портативная акустика",
+          "data": "https://vuejs.org/guide/essentials/conditional.html#conditional-rendering",
+          "type": "url"
+        }
+      ]
+    },
+    {
+      "key": "3",
+      "label": "Строительство и ремонт",
+      "children": [
+        {
+          "key": "1-0",
+          "label": "Ванны",
+          "data": "https://vuejs.org/guide/components/registration.html#component-registration",
+          "type": "url"
+        },
+        {
+          "key": "1-1",
+          "label": "Душевые кабины",
+          "data": "https://vuejs.org/guide/components/props.html#props",
+          "type": "url"
+        },
+        {
+          "key": "1-2",
+          "label": "Сифоны",
+          "data": "https://vuejs.org/guide/components/events.html#component-events",
+          "type": "url"
+        },
+        {
+          "key": "1-3",
+          "label": "Отопительные котлы",
+          "data": "https://vuejs.org/guide/components/slots.html#slots",
+          "type": "url"
+        }
+      ]
+    },
+    {
+      "key": "4",
+      "label": "Спорт и туризм",
+      "children": [
+        {
+          "key": "0-0",
+          "label": "Велотренажеры",
+          "data": "https://vuejs.org/guide/introduction.html#what-is-vue",
+          "type": "url"
+        },
+        {
+          "key": "0-1",
+          "label": "Беговые дорожки",
+          "data": "https://vuejs.org/guide/quick-start.html#quick-start",
+          "type": "url"
+        },
+        {
+          "key": "0-2",
+          "label": "Силовые тренажеры",
+          "data": "https://vuejs.org/guide/essentials/application.html#creating-a-vue-application",
+          "type": "url"
+        },
+        {
+          "key": "0-3",
+          "label": "Скейтборды и роллерсерфы",
+          "data": "https://vuejs.org/guide/essentials/conditional.html#conditional-rendering",
+          "type": "url"
+        }
+      ]
+    },
+    {
+      "key": "5",
+      "label": "Все для авто",
+      "children": [
+        {
+          "key": "1-0",
+          "label": "GPS-навигаторы",
+          "data": "https://vuejs.org/guide/components/registration.html#component-registration",
+          "type": "url"
+        },
+        {
+          "key": "1-1",
+          "label": "Видеорегистраторы",
+          "data": "https://vuejs.org/guide/components/props.html#props",
+          "type": "url"
+        },
+        {
+          "key": "1-2",
+          "label": "Автоакустика",
+          "data": "https://vuejs.org/guide/components/events.html#component-events",
+          "type": "url"
+        },
+        {
+          "key": "1-3",
+          "label": "Камеры заднего вида",
+          "data": "https://vuejs.org/guide/components/slots.html#slots",
+          "type": "url"
+        }
+      ]
+    }
   ]
 }
